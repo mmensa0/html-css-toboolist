@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.banner{
+    height: 60px;
+    width: 100%;
+    background-color: white;   
+    text-align: left;
+    vertical-align: middle;
+        
+}
+#banner-logo{
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: middle;
+   
+}
+
+#banner-image{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.button-container{
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+
+}
+
+.button1{
+    border: none;
+    background-color: rgb(6, 129, 245);
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.button2{
+    border: solid grey;
+    color: grey;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 9px;
+    padding-left: 9px;
+    border-width: 1px;
+}
+
+
+.list{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+
+li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul{
+    padding: 0px;
+}
+
+.list-title{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.arrow{
+    font-size: 12px;
+}
+
+.checkmark{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid green;
+    color: green;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.cross{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    
+    
+}
+
+
+.tag{
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.editorial{
+    background-color: rgb(0, 183, 255);
+}
+
+.q1goals{
+    background-color: rgb(224, 151, 247);
+}
+
+.recruiting{
+    background-color: rgb(89, 187, 89);
+}
+
+.mobile{
+    background-color: rgb(255, 190, 70);
+}
+
+.website{
+    background-color: rgb(155, 61, 69);
+}
+
+.sales{
+    background-color: rgb(94, 112, 68);
+}
